@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes Keeper</title>
+  <link rel="stylesheet" href="harsh.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Notes Keeper</h1>
+    <div class="input-group">
+      <input type="text" id="note-title" placeholder="Note title" />
+      <textarea id="note-content" placeholder="Write your note..."></textarea>
+      <button onclick="addNote()">Add Note</button>
+    </div>
+    <h2>Your Notes</h2>
+    <div id="notes-list" class="notes-list"></div>
+  </div>
+  <script src="harsh.js"></script>
+</body>
+</html>
